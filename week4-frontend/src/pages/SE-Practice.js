@@ -7,7 +7,7 @@ import Dropdown from "../components/Dropdown.js";
 
 const SEPractice = () => {
     return (
-      <div class = "content">
+      <div className = "content">
         <h2>Select SE Practice to get evidence for the claimed benefits</h2>
         <Dropdown/>
                <Styles>
