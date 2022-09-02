@@ -1,16 +1,11 @@
 import React, {useMemo} from "react";
-import articles from "../dummydata/articles.js";
 import { useTable, useSortBy, usePagination } from 'react-table';
-import Dropdown from "../components/Dropdown.js";
 
 
-const Table = ({columns, data}) => {
+// We take in option here at table construction so we know what columns to show
+const Table = ({option, columns, data}) => {
 
-var e = document.getElementById("selector");
-console.log(e);
-if (e != null) {
-  console.log(e.value);
-}
+
 
 //console.log(e.options[e.selectedIndex].text);
 
